@@ -13,4 +13,4 @@ docker run -d \
 -v /etc/localtime:/etc/localtime:ro \
 -e TZ="Asia/Shanghai" \
 --restart always \
---name svn yufex/svn:v1
+--name svn wanxin/docker-subversion
