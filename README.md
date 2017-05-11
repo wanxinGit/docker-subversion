@@ -1,12 +1,12 @@
 # docker-subversion
 
-1¡¢´Ë¾µÏñ»ùÓÚcentos:6.7
+1ã€æ­¤é•œåƒåŸºäºcentos:6.7
 
-2¡¢Êı¾İ¹ÒÔØµ½/opt/docker/storage/svn/repo£¬ĞèÒª×ÔĞĞ±¸·İ
+2ã€æ•°æ®æŒ‚è½½åˆ°/opt/docker/storage/svn/repoï¼Œéœ€è¦è‡ªè¡Œå¤‡ä»½
 
-3¡¢Ä¬ÈÏsvn¹ÜÀíÔ±ÕË»§admin/123456£¨¼ûconfig/passwd£©
+3ã€é»˜è®¤svnç®¡ç†å‘˜è´¦æˆ·admin/123456ï¼ˆè§config/passwdï¼‰
 
-4¡¢ÍÆ¼öÆô¶¯ÃüÁî
+4ã€æ¨èå¯åŠ¨å‘½ä»¤
 docker run -d \
 -p 3690:3690 \
 -v /opt/docker/storage/svn/repo:/opt/svn/repo \
