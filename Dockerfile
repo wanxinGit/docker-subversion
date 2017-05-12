@@ -1,4 +1,4 @@
-FROM hub.c.163.com/public/centos:6.7-tools
+FROM centos:6.7
 MAINTAINER wanxin <258621580@qq.com>
 
 #svn repository dir(in container)
