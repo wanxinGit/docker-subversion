@@ -18,10 +18,22 @@
 [groups]
 admin = admin
 yufex_dev = wanxin,shimaoxin,pengtao
+app_dev = xuzhixian,guosheng
+relation_sys = jenkins
 
 [/]
 @admin = rw
+*=
 
-[/txteam/yufex-wtp]
+[/yufex-wtp]
+@admin = rw
 @yufex_dev = rw
+@relation_sys = r
+*=
 
+[/yufex_app_2_0]
+@admin = rw
+@yufex_dev = rw
+@app_dev = rw
+@relation_sys = r
+*=
